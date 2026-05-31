@@ -61,6 +61,9 @@ export function Footer() {
                 <MapPin className="h-4 w-4 shrink-0 mt-0.5" />
                 <span>Казань, территория Химград, 19</span>
               </li>
+              <li className="text-xs leading-relaxed pt-1">
+                Доставка: Деловые Линии, СДЭК или по договорённости
+              </li>
             </ul>
           </div>
         </div>
