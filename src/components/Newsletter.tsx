@@ -46,9 +46,7 @@ export function Newsletter() {
             </div>
           </form>
 
-          <p className="text-xs text-muted-foreground">
-            Нажимая кнопку, вы соглашаетесь с Политикой конфиденциальности и даёте согласие на обработку персональных данных
-          </p>
+
         </div>
       </div>
     </section>
