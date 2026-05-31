@@ -1,37 +1,37 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Calendar, Users, Star } from "lucide-react"
+import { Package, Layers, Star } from "lucide-react"
 
 const packages = [
   {
-    title: "Гранд-тур по Европе",
-    duration: "14 дней",
-    groupSize: "12-16 человек",
+    title: "Набор для стеллажа",
+    size: "Комплект 40 шт.",
+    capacity: "до 200 кг",
     rating: "4.9",
-    reviews: "234",
+    reviews: "87",
     image: "/european-cities-paris-eiffel-tower-romantic.jpg",
-    highlights: ["Париж", "Рим", "Барселона", "Амстердам"],
-    price: "429 900 ₽",
+    highlights: ["Угловые 90°", "Т-образные", "Фланцевые", "Болты в комплекте"],
+    price: "3 200 ₽",
   },
   {
-    title: "Азиатское приключение",
-    duration: "10 дней",
-    groupSize: "8-12 человек",
+    title: "Каркас навеса",
+    size: "Комплект 60 шт.",
+    capacity: "до 350 кг",
     rating: "4.8",
-    reviews: "189",
+    reviews: "54",
     image: "/asian-temples-thailand-bangkok-golden-temple.jpg",
-    highlights: ["Бангкок", "Сингапур", "Бали", "Куала-Лумпур"],
-    price: "349 900 ₽",
+    highlights: ["Угловые 3D", "Крестовые", "Шарнирные", "Фланцевые"],
+    price: "5 800 ₽",
   },
   {
-    title: "Сафари-экспедиция",
-    duration: "7 дней",
-    groupSize: "6-10 человек",
+    title: "Промышленный стенд",
+    size: "Комплект 100 шт.",
+    capacity: "до 500 кг",
     rating: "5.0",
-    reviews: "156",
+    reviews: "41",
     image: "/african-safari-wildlife-elephants-sunset.jpg",
-    highlights: ["Серенгети", "Масаи Мара", "Нгоронгоро", "Амбосели"],
-    price: "599 900 ₽",
+    highlights: ["Все типы коннекторов", "Усиленная сталь", "Антикор покрытие", "Инструкция"],
+    price: "9 500 ₽",
   },
 ]
 
@@ -42,10 +42,10 @@ export function PopularPackages() {
         {/* Section Header */}
         <div className="max-w-3xl mb-20">
           <h2 className="text-5xl md:text-6xl font-light tracking-tight mb-6 text-balance">
-            Популярные <span className="font-semibold">туры</span>
+            Готовые <span className="font-semibold">комплекты</span>
           </h2>
           <p className="text-lg text-muted-foreground text-balance leading-relaxed">
-            Тщательно подобранные туры, объединяющие лучшие направления и впечатления
+            Подобранные наборы коннекторов для типовых конструкций — всё необходимое в одном заказе
           </p>
         </div>
 
@@ -81,12 +81,12 @@ export function PopularPackages() {
                   {/* Meta Info */}
                   <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
                     <div className="flex items-center gap-1.5">
-                      <Calendar className="h-4 w-4" />
-                      <span>{pkg.duration}</span>
+                      <Package className="h-4 w-4" />
+                      <span>{pkg.size}</span>
                     </div>
                     <div className="flex items-center gap-1.5">
-                      <Users className="h-4 w-4" />
-                      <span>{pkg.groupSize}</span>
+                      <Layers className="h-4 w-4" />
+                      <span>{pkg.capacity}</span>
                     </div>
                   </div>
 
@@ -103,11 +103,11 @@ export function PopularPackages() {
                 {/* Price & CTA */}
                 <div className="flex items-center justify-between pt-6 border-t border-border">
                   <div>
-                    <div className="text-xs text-muted-foreground mb-1">Цена от</div>
+                    <div className="text-xs text-muted-foreground mb-1">Цена комплекта</div>
                     <div className="text-2xl font-semibold text-primary">{pkg.price}</div>
                   </div>
                   <Button className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full">
-                    Забронировать
+                    Заказать
                   </Button>
                 </div>
               </div>

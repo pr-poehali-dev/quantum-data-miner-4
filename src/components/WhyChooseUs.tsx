@@ -1,25 +1,25 @@
-import { Globe, Shield, Headphones, Award } from "lucide-react"
+import { Wrench, Shield, Truck, PlayCircle } from "lucide-react"
 
 const features = [
   {
-    icon: Globe,
-    title: "Глобальная сеть",
-    description: "Доступ к 150+ направлениям по всему миру с местными экспертами и аутентичным опытом",
+    icon: Wrench,
+    title: "Простой монтаж",
+    description: "Сборка без сварки и специального оборудования. Болтовые соединения — справится любой",
   },
   {
     icon: Shield,
-    title: "Безопасное бронирование",
-    description: "Защищенные платежи и полная страховка путешествий для вашего спокойствия",
+    title: "Надёжное качество",
+    description: "Сталь с антикоррозийным покрытием. Нагрузка до 500 кг на узел — проверено на практике",
   },
   {
-    icon: Headphones,
-    title: "Поддержка 24/7",
-    description: "Круглосуточная служба поддержки до, во время и после вашей поездки",
+    icon: Truck,
+    title: "Быстрая доставка",
+    description: "Отправка в день заказа. Доставка по всей России за 1–3 дня. Самовывоз в Москве",
   },
   {
-    icon: Award,
-    title: "Гарантия лучшей цены",
-    description: "Конкурентные цены с гарантией лучшей цены и гибкими вариантами оплаты",
+    icon: PlayCircle,
+    title: "Видеоинструкции",
+    description: "Подробные видео и текстовые инструкции по сборке для каждого типа конструкций",
   },
 ]
 
@@ -30,10 +30,10 @@ export function WhyChooseUs() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h2 className="text-5xl md:text-6xl font-light tracking-tight mb-6 text-balance">
-            Почему выбирают <span className="font-semibold">Horizon Voyages</span>
+            Почему выбирают <span className="font-semibold">МеталлКоннект</span>
           </h2>
           <p className="text-lg text-muted-foreground text-balance leading-relaxed">
-            Мы превращаем ваши мечты о путешествиях в реальность с исключительным сервисом и незабываемыми впечатлениями
+            Мы помогаем строить быстро и надёжно — от гаражных стеллажей до промышленных стендов
           </p>
         </div>
 

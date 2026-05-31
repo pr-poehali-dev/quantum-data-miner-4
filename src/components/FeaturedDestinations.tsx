@@ -1,98 +1,97 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { MapPin, ArrowRight } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
-const destinations = [
+const connectors = [
   {
-    name: "Санторини",
-    country: "Греция",
+    name: "Угловой 90°",
+    type: "Одноплоскостной",
     image: "/santorini-sunset.png",
-    description: "Белоснежные домики и потрясающие закаты над морем",
-    price: "от 249 900 ₽",
+    description: "Соединяет две трубы под прямым углом. Идеально для рам, стеллажей и опорных конструкций",
+    price: "от 120 ₽",
   },
   {
-    name: "Бали",
-    country: "Индонезия",
+    name: "Т-образный",
+    type: "Трёхсторонний",
     image: "/bali-indonesia-rice-terraces-tropical-paradise.jpg",
-    description: "Тропический рай с древними храмами и пляжами",
-    price: "от 189 900 ₽",
+    description: "Соединение трёх труб в одной плоскости. Применяется в перегородках и стеллажных системах",
+    price: "от 150 ₽",
   },
   {
-    name: "Киото",
-    country: "Япония",
+    name: "Крестовой",
+    type: "Четырёхсторонний",
     image: "/kyoto-japan-traditional-temples-cherry-blossoms.jpg",
-    description: "Древние храмы и традиционная японская культура",
-    price: "от 279 900 ₽",
+    description: "Четыре трубы в одной плоскости. Для решёток, настилов и сложных плоских конструкций",
+    price: "от 180 ₽",
   },
   {
-    name: "Мальдивы",
-    country: "Индийский океан",
+    name: "Угловой 3D",
+    type: "Пространственный",
     image: "/maldives-overwater-bungalows-crystal-clear-water.jpg",
-    description: "Виллы над водой и нетронутые коралловые рифы",
-    price: "от 349 900 ₽",
+    description: "Соединяет три трубы в трёх плоскостях. Для пространственных каркасов и навесов",
+    price: "от 210 ₽",
   },
   {
-    name: "Исландия",
-    country: "Северная Европа",
+    name: "Фланцевый",
+    type: "Торцевой",
     image: "/iceland-northern-lights-waterfalls-dramatic-landsc.jpg",
-    description: "Северное сияние и величественные вулканические ландшафты",
-    price: "от 299 900 ₽",
+    description: "Крепление трубы к плоской поверхности: полу, стене, потолку. Надёжная фиксация",
+    price: "от 90 ₽",
   },
   {
-    name: "Дубай",
-    country: "ОАЭ",
+    name: "Шарнирный",
+    type: "Поворотный",
     image: "/dubai-modern-skyline-luxury-desert.jpg",
-    description: "Современная роскошь и приключения в пустыне",
-    price: "от 229 900 ₽",
+    description: "Регулируемый угол от 0° до 180°. Для нестандартных конструкций и скатных крыш",
+    price: "от 350 ₽",
   },
 ]
 
 export function FeaturedDestinations() {
   return (
-    <section id="destinations" className="py-32 bg-background">
+    <section id="catalog" className="py-32 bg-background">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mb-20">
           <h2 className="text-5xl md:text-6xl font-light tracking-tight mb-6 text-balance">
-            Популярные <span className="font-semibold">направления</span>
+            Виды <span className="font-semibold">коннекторов</span>
           </h2>
           <p className="text-lg text-muted-foreground text-balance leading-relaxed">
-            Лучшие направления с незабываемыми впечатлениями и захватывающей красотой
+            Широкий ассортимент металлических соединителей для профильных труб 20×20, 25×25, 40×40 мм и других сечений
           </p>
         </div>
 
-        {/* Destinations Grid */}
+        {/* Connectors Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {destinations.map((destination, index) => (
+          {connectors.map((connector, index) => (
             <Card
               key={index}
               className="group overflow-hidden border-0 bg-card hover:shadow-2xl transition-all duration-500 cursor-pointer"
             >
               {/* Image */}
-              <div className="relative h-80 overflow-hidden">
+              <div className="relative h-64 overflow-hidden">
                 <img
-                  src={destination.image || "/placeholder.svg"}
-                  alt={destination.name}
+                  src={connector.image || "/placeholder.svg"}
+                  alt={connector.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0" />
 
-                {/* Location Badge */}
+                {/* Type Badge */}
                 <div className="absolute top-4 left-4 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full">
-                  <MapPin className="h-3.5 w-3.5 text-primary" />
-                  <span className="text-xs font-medium">{destination.country}</span>
+                  <span className="text-xs font-medium">{connector.type}</span>
                 </div>
               </div>
 
               {/* Content */}
               <div className="p-6 space-y-4">
                 <div>
-                  <h3 className="text-2xl font-semibold mb-2">{destination.name}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{destination.description}</p>
+                  <h3 className="text-2xl font-semibold mb-2">{connector.name}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{connector.description}</p>
                 </div>
 
                 <div className="flex items-center justify-between pt-4 border-t border-border">
-                  <span className="text-sm font-semibold text-primary">{destination.price}</span>
+                  <span className="text-sm font-semibold text-primary">{connector.price}</span>
                   <Button variant="ghost" size="sm" className="group/btn text-foreground hover:text-primary">
                     Подробнее
                     <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
@@ -105,8 +104,13 @@ export function FeaturedDestinations() {
 
         {/* View All Button */}
         <div className="text-center mt-16">
-          <Button variant="outline" size="lg" className="rounded-full px-8 border-2 bg-transparent">
-            Все направления
+          <Button
+            variant="outline"
+            size="lg"
+            className="rounded-full px-8 border-2 bg-transparent"
+            onClick={() => document.getElementById('packages')?.scrollIntoView({ behavior: 'smooth' })}
+          >
+            Все товары
           </Button>
         </div>
       </div>
