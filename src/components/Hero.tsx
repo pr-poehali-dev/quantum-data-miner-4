@@ -4,12 +4,15 @@ import { ArrowRight } from "lucide-react"
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-muted/30 to-background">
-      {/* Background Image */}
+      {/* Background Video */}
       <div className="absolute inset-0 z-0">
-        <img
-          src="https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/47285148-da4a-4f39-89e4-46e4371a7460.jpg"
-          alt="Металлические коннекторы — сборка фермы"
-          className="w-full h-full object-cover opacity-20"
+        <video
+          src="https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/27189dc5-13cc-4923-ab86-6f1e1407c424.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover opacity-30"
         />
       </div>
 
