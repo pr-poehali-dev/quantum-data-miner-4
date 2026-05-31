@@ -28,8 +28,7 @@ export function Footer() {
               <li><a href="#catalog" className="hover:text-foreground transition-colors">Угловые коннекторы</a></li>
               <li><a href="#catalog" className="hover:text-foreground transition-colors">Т-образные</a></li>
               <li><a href="#catalog" className="hover:text-foreground transition-colors">Крестовые</a></li>
-              <li><a href="#catalog" className="hover:text-foreground transition-colors">Пространственные 3D</a></li>
-              <li><a href="#catalog" className="hover:text-foreground transition-colors">Фланцевые и шарнирные</a></li>
+
             </ul>
           </div>
 
