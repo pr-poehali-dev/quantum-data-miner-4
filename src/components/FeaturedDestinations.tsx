@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react"
 
 const connectors = [
   {
-    name: "Коннектор №1-1",
+    name: "Коннектор №1",
     type: "Угловой",
     image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/d21c5010-a358-4a08-83b6-06f2353a8618.jpg",
     description: "Угловое соединение труб. Идеально для рам, стеллажей и опорных конструкций",
