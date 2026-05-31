@@ -1,4 +1,4 @@
-import { Wrench, Shield, Truck, PlayCircle } from "lucide-react"
+import { Wrench, Shield, Truck, PlayCircle, Settings, RefreshCw, Paintbrush } from "lucide-react"
 
 const features = [
   {
@@ -21,6 +21,21 @@ const features = [
     title: "Видеоинструкции",
     description: "Подробные видео и текстовые инструкции по сборке для каждого типа конструкций",
   },
+  {
+    icon: Settings,
+    title: "Без сварки и сверления",
+    description: "Собирайте конструкции самостоятельно — не нужно сварочного оборудования или дрели",
+  },
+  {
+    icon: RefreshCw,
+    title: "Разборные конструкции",
+    description: "Легко разбирать, дополнять, изменять и перевозить — конструкция адаптируется под ваши задачи",
+  },
+  {
+    icon: Paintbrush,
+    title: "Порошковая покраска",
+    description: "Красьте трубы до монтажа — порошковое покрытие защищает от коррозии значительно лучше обычной краски",
+  },
 ]
 
 export function WhyChooseUs() {
@@ -38,7 +53,7 @@ export function WhyChooseUs() {
         </div>
 
         {/* Features Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
           {features.map((feature, index) => (
             <div key={index} className="text-center space-y-4">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 text-primary mb-2">
