@@ -47,7 +47,7 @@ const connectors = [
   {
     name: "Коннектор №5",
     type: "Коньковый узел",
-    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/f3bcca57-1c2c-43ee-8ae2-bb65886ff611.jpg",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/9c5a81ca-12bf-43fb-97d8-ffcf978ccce2.jpg",
     description: "Коньковый узел кровельной фермы. Верхние пояса 40×40, раскосы и стойка 20×40. Болты М8: 60мм-6шт., 20мм-8шт.",
     price: "793 ₽",
   },
