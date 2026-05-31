@@ -17,8 +17,8 @@ export function WorkExamples() {
     },
     {
       image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/f0376635-ffc2-44d1-a10b-7b973209f6dd.jpg",
-      title: "Крестовой узел №1-1",
-      description: "Коннектор №1-1 в крестовом соединении — для решёток, настилов и плоских каркасов",
+      title: "Коннектор №1",
+      description: "Опорный узел кровельной фермы из профильной трубы 40×40. Болты М8: 60мм-1шт., 50мм-4шт., 80мм-4шт. Гайки самостопорящиеся",
     },
     {
       image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/f2f9ed9e-12ef-46fb-a12f-429707210c5d.jpg",
