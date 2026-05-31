@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
 
 const connectors = [
   {
@@ -109,12 +108,8 @@ export function FeaturedDestinations() {
                   <p className="text-sm text-muted-foreground leading-relaxed">{connector.description}</p>
                 </div>
 
-                <div className="flex items-center justify-between pt-4 border-t border-border">
+                <div className="pt-4 border-t border-border">
                   <span className="text-sm font-semibold text-primary">{connector.price}</span>
-                  <Button variant="ghost" size="sm" className="group/btn text-foreground hover:text-primary">
-                    Подробнее
-                    <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </Button>
                 </div>
               </div>
             </Card>
