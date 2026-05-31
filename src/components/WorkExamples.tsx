@@ -20,6 +20,21 @@ export function WorkExamples() {
       title: "Крестовой узел №1-1",
       description: "Коннектор №1-1 в крестовом соединении — для решёток, настилов и плоских каркасов",
     },
+    {
+      image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/f2f9ed9e-12ef-46fb-a12f-429707210c5d.jpg",
+      title: "Набор для стеллажа",
+      description: "Готовый комплект коннекторов для сборки стеллажа — угловые, Т-образные, фланцевые и болты",
+    },
+    {
+      image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/e0ed143c-d428-462e-a814-835479f25760.jpg",
+      title: "Каркас навеса",
+      description: "Комплект коннекторов для навеса — угловые 3D, крестовые, шарнирные и фланцевые",
+    },
+    {
+      image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/db2fdf66-dfa8-4f54-aaad-f82a46d9a9ef.jpg",
+      title: "Промышленный стенд",
+      description: "Усиленная конструкция из профильных труб на коннекторах — нагрузка до 500 кг",
+    },
   ]
 
   return (
