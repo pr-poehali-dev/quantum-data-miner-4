@@ -7,8 +7,8 @@ export function WorkExamples() {
     },
     {
       image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/f3bcca57-1c2c-43ee-8ae2-bb65886ff611.jpg",
-      title: "Угловое соединение №5",
-      description: "Коннектор №5 в сборке — надёжное угловое соединение с профильной трубой",
+      title: "Коннектор №5",
+      description: "Коньковый узел кровельной фермы. Верхние пояса 40×40, раскосы и стойка 20×40. Болты М8: 60мм-6шт., 20мм-8шт.",
     },
     {
       image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/4ce018c1-4d4b-4d0b-ba7d-efe2655aab9b.jpg",
