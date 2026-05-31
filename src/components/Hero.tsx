@@ -7,9 +7,9 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/stunning-tropical-beach-paradise-with-crystal-clea.jpg"
-          alt="Металлические коннекторы"
-          className="w-full h-full object-cover opacity-10"
+          src="https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/47285148-da4a-4f39-89e4-46e4371a7460.jpg"
+          alt="Металлические коннекторы — сборка фермы"
+          className="w-full h-full object-cover opacity-20"
         />
       </div>
 

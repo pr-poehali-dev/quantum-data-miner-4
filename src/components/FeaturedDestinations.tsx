@@ -6,7 +6,7 @@ const connectors = [
   {
     name: "Коннектор №1-1",
     type: "Угловой",
-    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/dbeae6cc-e62d-4ab8-b056-c8736d1a4f4d.jpg",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/f0376635-ffc2-44d1-a10b-7b973209f6dd.jpg",
     description: "Угловое соединение труб. Идеально для рам, стеллажей и опорных конструкций",
     price: "от 120 ₽",
   },
@@ -41,14 +41,14 @@ const connectors = [
   {
     name: "Коннектор №5",
     type: "Угловой скатный",
-    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/4abf7910-4f7f-4b1f-9de6-c9e6de152a37.jpg",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/f3bcca57-1c2c-43ee-8ae2-bb65886ff611.jpg",
     description: "Угловое соединение для скатных конструкций. Подходит для навесов и кровельных каркасов",
     price: "от 320 ₽",
   },
   {
     name: "Коннектор №6",
     type: "Пространственный",
-    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/4fd3d891-a31b-4f48-9cd0-6419f260c7a1.jpg",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/4ce018c1-4d4b-4d0b-ba7d-efe2655aab9b.jpg",
     description: "Трёхмерное угловое соединение труб. Для сложных пространственных конструкций",
     price: "от 350 ₽",
   },
