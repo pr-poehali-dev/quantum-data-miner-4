@@ -4,46 +4,60 @@ import { ArrowRight } from "lucide-react"
 
 const connectors = [
   {
-    name: "Угловой 90°",
-    type: "Одноплоскостной",
-    image: "/santorini-sunset.png",
-    description: "Соединяет две трубы под прямым углом. Идеально для рам, стеллажей и опорных конструкций",
+    name: "Коннектор №1-1",
+    type: "Угловой",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/dbeae6cc-e62d-4ab8-b056-c8736d1a4f4d.jpg",
+    description: "Угловое соединение труб. Идеально для рам, стеллажей и опорных конструкций",
     price: "от 120 ₽",
   },
   {
-    name: "Т-образный",
-    type: "Трёхсторонний",
-    image: "/bali-indonesia-rice-terraces-tropical-paradise.jpg",
-    description: "Соединение трёх труб в одной плоскости. Применяется в перегородках и стеллажных системах",
-    price: "от 150 ₽",
-  },
-  {
-    name: "Крестовой",
-    type: "Четырёхсторонний",
-    image: "/kyoto-japan-traditional-temples-cherry-blossoms.jpg",
-    description: "Четыре трубы в одной плоскости. Для решёток, настилов и сложных плоских конструкций",
+    name: "Коннектор №1-2",
+    type: "Угловой",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/ad13b31e-642f-43d7-84ff-f617e6fd8017.jpg",
+    description: "Угловое соединение труб увеличенного размера. Для более тяжёлых конструкций",
     price: "от 180 ₽",
   },
   {
-    name: "Угловой 3D",
-    type: "Пространственный",
-    image: "/maldives-overwater-bungalows-crystal-clear-water.jpg",
-    description: "Соединяет три трубы в трёх плоскостях. Для пространственных каркасов и навесов",
+    name: "Коннектор №2",
+    type: "Угловой 3D",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/8a711913-82a2-40a6-b6d5-fdefaed06cff.jpg",
+    description: "Пространственное соединение труб под углом. Для объёмных каркасов и навесов",
     price: "от 210 ₽",
   },
   {
-    name: "Фланцевый",
-    type: "Торцевой",
-    image: "/iceland-northern-lights-waterfalls-dramatic-landsc.jpg",
-    description: "Крепление трубы к плоской поверхности: полу, стене, потолку. Надёжная фиксация",
-    price: "от 90 ₽",
+    name: "Коннектор №3",
+    type: "Т-образный",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/981ec069-de7d-458e-b5b4-4e09fa52490f.jpg",
+    description: "Соединение трёх труб. Применяется в перегородках, стеллажных и кровельных системах",
+    price: "от 250 ₽",
   },
   {
-    name: "Шарнирный",
-    type: "Поворотный",
-    image: "/dubai-modern-skyline-luxury-desert.jpg",
-    description: "Регулируемый угол от 0° до 180°. Для нестандартных конструкций и скатных крыш",
+    name: "Коннектор №4",
+    type: "Крестовой",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/303c3502-9cf4-4870-888a-6922aa753864.jpg",
+    description: "Четыре трубы в одной плоскости. Для решёток, настилов и сложных конструкций",
+    price: "от 280 ₽",
+  },
+  {
+    name: "Коннектор №5",
+    type: "Угловой скатный",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/4abf7910-4f7f-4b1f-9de6-c9e6de152a37.jpg",
+    description: "Угловое соединение для скатных конструкций. Подходит для навесов и кровельных каркасов",
+    price: "от 320 ₽",
+  },
+  {
+    name: "Коннектор №6",
+    type: "Пространственный",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/4fd3d891-a31b-4f48-9cd0-6419f260c7a1.jpg",
+    description: "Трёхмерное угловое соединение труб. Для сложных пространственных конструкций",
     price: "от 350 ₽",
+  },
+  {
+    name: "Коннектор №8",
+    type: "Основание (пятка)",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/cc34e207-ed60-4759-a277-a97186211829.jpg",
+    description: "Опорное основание для вертикальных стоек. Крепление к полу, фундаменту или поверхности",
+    price: "от 90 ₽",
   },
 ]
 
@@ -69,14 +83,12 @@ export function FeaturedDestinations() {
               className="group overflow-hidden border-0 bg-card hover:shadow-2xl transition-all duration-500 cursor-pointer"
             >
               {/* Image */}
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-64 overflow-hidden bg-muted/30">
                 <img
-                  src={connector.image || "/placeholder.svg"}
+                  src={connector.image}
                   alt={connector.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/0 to-black/0" />
-
                 {/* Type Badge */}
                 <div className="absolute top-4 left-4 flex items-center gap-1.5 bg-white/95 backdrop-blur-sm px-3 py-1.5 rounded-full">
                   <span className="text-xs font-medium">{connector.type}</span>
@@ -86,7 +98,7 @@ export function FeaturedDestinations() {
               {/* Content */}
               <div className="p-6 space-y-4">
                 <div>
-                  <h3 className="text-2xl font-semibold mb-2">{connector.name}</h3>
+                  <h3 className="text-xl font-semibold mb-2">{connector.name}</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">{connector.description}</p>
                 </div>
 
