@@ -11,6 +11,13 @@ const connectors = [
     price: "от 120 ₽",
   },
   {
+    name: "Коннектор №1-1",
+    type: "Угловой",
+    image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/495b1ff9-558e-4563-92ed-e1744a0a1c58.jpg",
+    description: "Угловое соединение труб. Идеально для рам, стеллажей и опорных конструкций",
+    price: "от 120 ₽",
+  },
+  {
     name: "Коннектор №1-2",
     type: "Угловой",
     image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/ad13b31e-642f-43d7-84ff-f617e6fd8017.jpg",
