@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-semibold">МеталлКоннект</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Металлические коннекторы для профильных труб — быстрый монтаж без сварки с 2015 года
+              Металлические коннекторы для профильных труб — быстрый монтаж без сварки с 2024 года
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
