@@ -4,7 +4,6 @@ import { FeaturedDestinations } from "@/components/FeaturedDestinations"
 import { WhyChooseUs } from "@/components/WhyChooseUs"
 import { PopularPackages } from "@/components/PopularPackages"
 import { WorkExamples } from "@/components/WorkExamples"
-import { Newsletter } from "@/components/Newsletter"
 import { Footer } from "@/components/Footer"
 
 export default function Index() {
@@ -16,7 +15,6 @@ export default function Index() {
       <WhyChooseUs />
       <PopularPackages />
       <WorkExamples />
-      <Newsletter />
       <Footer />
     </main>
   )
