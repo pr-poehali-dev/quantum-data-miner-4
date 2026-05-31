@@ -23,7 +23,7 @@ export function WorkExamples() {
   ]
 
   return (
-    <section className="py-32 bg-muted/30">
+    <section id="examples" className="py-32 bg-muted/30">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="max-w-3xl mb-20">
           <h2 className="text-5xl md:text-6xl font-light tracking-tight mb-6 text-balance">

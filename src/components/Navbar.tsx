@@ -41,6 +41,9 @@ export function Navbar() {
             >
               Товары
             </a>
+            <a href="#examples" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
+              Примеры работ
+            </a>
             <a href="#about" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
               О нас
             </a>
@@ -75,6 +78,9 @@ export function Navbar() {
             </a>
             <a href="#packages" className="block text-base font-medium text-foreground/70 hover:text-foreground">
               Товары
+            </a>
+            <a href="#examples" className="block text-base font-medium text-foreground/70 hover:text-foreground">
+              Примеры работ
             </a>
             <a href="#about" className="block text-base font-medium text-foreground/70 hover:text-foreground">
               О нас
