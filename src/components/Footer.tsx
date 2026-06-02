@@ -69,6 +69,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
           <p>© 2025 МеталлКоннект. Все права защищены.</p>
+          <p className="mt-1 text-xs opacity-60">Коннектор для профильных труб. Патент на изобретение №2839991</p>
         </div>
       </div>
     </footer>
