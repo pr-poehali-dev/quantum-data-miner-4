@@ -1,4 +1,4 @@
-import { Wrench, Shield, Truck, PlayCircle, Settings, RefreshCw, Paintbrush } from "lucide-react"
+import { Wrench, Shield, Truck, Settings, RefreshCw, Paintbrush } from "lucide-react"
 
 const features = [
   {
@@ -15,11 +15,6 @@ const features = [
     icon: Truck,
     title: "Доставка",
     description: "Доставка по всей России транспортной компанией",
-  },
-  {
-    icon: PlayCircle,
-    title: "Видеоинструкции",
-    description: "Подробные видео и текстовые инструкции по сборке для каждого типа конструкций",
   },
   {
     icon: Settings,
