@@ -35,6 +35,21 @@ export function WorkExamples() {
       title: "Промышленный стенд",
       description: "Усиленная конструкция из профильных труб на коннекторах — нагрузка до 500 кг",
     },
+    {
+      image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/12ef3c98-ac3a-46ce-ae8e-b0f678a12ba1.jpg",
+      title: "Хозпостройка",
+      description: "Хозяйственная постройка на коннекторах — лёгкий каркас, быстрый монтаж без сварки",
+    },
+    {
+      image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/896dbc16-a0d9-4fd1-bccc-64e086d85993.jpg",
+      title: "Зимний навес",
+      description: "Каркасный навес с кровельными фермами на коннекторах — выдерживает снеговую нагрузку",
+    },
+    {
+      image: "https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/73516bca-b281-4089-8944-15ab500c8393.jpg",
+      title: "Кровельные фермы изнутри",
+      description: "Вид изнутри на стропильные фермы — коннекторы в каждом узле, профиль 40×40",
+    },
   ]
 
   return (
