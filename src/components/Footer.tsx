@@ -36,7 +36,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Покупателям</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><a href="#packages" className="hover:text-foreground transition-colors">Готовые комплекты</a></li>
+              <li><span className="cursor-default">Готовые комплекты <span className="text-xs opacity-60">(скоро)</span></span></li>
               <li><span className="cursor-default" title="Раздел на реконструкции">Доставка и оплата <span className="text-xs opacity-60">(скоро)</span></span></li>
               <li><span className="cursor-default" title="Раздел на реконструкции">Видеоинструкции <span className="text-xs opacity-60">(скоро)</span></span></li>
               <li><span className="cursor-default" title="Раздел на реконструкции">Политика возврата <span className="text-xs opacity-60">(скоро)</span></span></li>
