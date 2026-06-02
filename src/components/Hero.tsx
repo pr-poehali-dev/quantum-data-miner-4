@@ -7,7 +7,7 @@ export function Hero() {
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
         <video
-          src="https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/27189dc5-13cc-4923-ab86-6f1e1407c424.mp4"
+          src="https://cdn.poehali.dev/projects/8d3899c4-d13c-4e96-95b2-9a435b9258e9/bucket/b3ed5047-2ddd-4baf-86bb-eecc97a4ecb6.mp4"
           autoPlay
           muted
           loop
